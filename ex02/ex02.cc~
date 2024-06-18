@@ -1,0 +1,36 @@
+#include <iostream>
+#include <string>
+
+int main() {
+  int count = 0;
+    std::string first_name;
+    std::string middle_name;
+    std::string last_name;
+
+    while(std::cin >> student_id >> first_name >> last_name) {
+      
+    }
+
+    
+
+    for(int i = 0; i < first_name.size() + middle_name.size() + last_name.size() + 14; i++) {
+      std::cout << "*";
+    }
+    std::cout << std::endl << "* ";
+    for(int i = 0; i < first_name.size() + middle_name.size() + last_name.size() + 10; i++) {
+      std::cout << " ";
+    }
+    std::cout << " *" << std::endl;
+    std::cout << "* Hello, " << first_name << " " << middle_name << " " << last_name << "! *" << std::endl;
+    std::cout << "* ";
+    for(int i = 0; i < first_name.size() + middle_name.size() + last_name.size() + 10; i++) {
+      std::cout << " ";
+    }
+    std::cout << " *" << std::endl;
+    for(int i = 0; i < first_name.size() + middle_name.size() + last_name.size() + 14; i++) {
+      std::cout << "*";
+    }
+    std::cout << std::endl;
+    
+    return 0;
+}
